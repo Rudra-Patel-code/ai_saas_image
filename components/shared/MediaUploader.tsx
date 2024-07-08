@@ -84,14 +84,6 @@ const MediaUploader = ({
                             className="media-uploader_cta"
                             onClick={() => open()}
                         >
-                            <div className="media-uploader_cta-image">
-                                <Image
-                                    src="/assets/icons/add.svg"
-                                    alt="Add Image"
-                                    width={24}
-                                    height={24}
-                                />
-                            </div>
                             <p className="p-14-medium">
                                 Click here to upload image
                             </p>
